@@ -1,0 +1,39 @@
+{
+  "name": "@gblejman/react-native-device",
+  "version": "0.0.0",
+  "description": "React Native device info + extras",
+  "main": "src/getDevice.js",
+  "scripts": {
+    "lint": "eslint src",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "react-native-device-info": "github:rebeccahughes/react-native-device-info#27f2bb3",
+    "ua-parser-js": "^0.7.10"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint": "^3.2.2",
+    "eslint-config-airbnb": "^10.0.0",
+    "eslint-plugin-import": "^1.12.0",
+    "eslint-plugin-jsx-a11y": "^2.0.1",
+    "eslint-plugin-react": "^6.0.0",
+    "husky": "^0.11.6",
+    "react-native": ">=0.28.0"
+  },
+  "peerDependencies": {
+    "react-native": ">=0.28.0"
+  },
+  "author": "German Blejman <gblejman@gmail.com> (https://github.com/gblejman)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:gblejman/react-native-device.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gblejman/react-native-device/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

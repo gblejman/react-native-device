@@ -1,0 +1,6 @@
+// use airbnb rules, babel-eslint custom parser
+// add rule overrides as needed
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb"
+}
