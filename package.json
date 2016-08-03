@@ -1,6 +1,6 @@
 {
   "name": "@gblejman/react-native-device",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "React Native device info + extras",
   "main": "src/getDevice.js",
   "scripts": {
