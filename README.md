@@ -12,7 +12,7 @@ npm i @gblejman/react-native-device --save
 ```
 
 ```shell
-rnpm link
+rnpm link react-native-device-info
 ```
 
 ## Usage
