@@ -12,11 +12,9 @@ export default () => ({
     name: DeviceInfo.getSystemName(),
     version: DeviceInfo.getSystemVersion(),
   },
-  app: {
-    bundleId: DeviceInfo.getBundleId(),
-    version: DeviceInfo.getVersion(),
-    build: DeviceInfo.getBuildNumber(),
-  },
+  bundleId: DeviceInfo.getBundleId(),
+  version: DeviceInfo.getVersion(),
+  build: DeviceInfo.getBuildNumber(),
   userAgent: {
     ...parseUa(DeviceInfo.getUserAgent()),
   },
